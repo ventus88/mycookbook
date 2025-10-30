@@ -33,5 +33,5 @@ jobs:
           pip install flake8 black
           # Run Python black
           black --check --diff *.Py
-          # 
+          # RTR
           flake8 *.py
