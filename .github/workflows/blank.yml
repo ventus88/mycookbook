@@ -32,6 +32,6 @@ jobs:
           # Install dependency
           pip install flake8 black
           # Run Python black
-          black --check --diff *.Py
+          black --check --diff *.py
           # RTR
           flake8 *.py
